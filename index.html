@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Manalife AI</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- Montserrat font from Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap"
+    rel="stylesheet"
+  />
+
+  <style>
+    /* Global Styles */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html,
+    body {
+      font-family: 'Montserrat', sans-serif;
+      background-color: #f9f9f9;
+      color: #333333;
+      scroll-behavior: smooth;
+    }
+
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    /* Container */
+    .container {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    /* Header & Logo */
+    header {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 40px;
+    }
+
+    .logo {
+      max-width: 120px;
+      height: auto;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      font-weight: 700;
+      color: #4B0082; /* Dark Purple */
+      margin-top: 10px;
+    }
+
+    header p {
+      font-size: 1rem;
+      margin-top: 6px;
+      color: #555555;
+    }
+
+    /* Navigation */
+    nav {
+      width: 100%;
+      background-color: #ffffff;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    .nav-container {
+      max-width: 1100px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 60px;
+    }
+
+    .nav-container a {
+      margin: 0 20px;
+      font-weight: 600;
+      color: #4B0082; /* Dark Purple */
+      transition: color 0.2s ease;
+    }
+
+    .nav-container a:hover {
+      color: #7A5490; /* Lighter Purple on Hover */
+    }
+
+    /* Sections */
+    section {
+      padding: 60px 0;
+      border-bottom: 1px solid #e0e0e0;
+    }
+
+    section:last-of-type {
+      border-bottom: none;
+    }
+
+    section h2 {
+      font-size: 2rem;
+      font-weight: 600;
+      color: #4B0082; /* Dark Purple */
+      margin-bottom: 20px;
+    }
+
+    section h3 {
+      font-size: 1.5rem;
+      font-weight: 600;
+      color: #4B0082; /* Dark Purple */
+      margin-top: 30px;
+      margin-bottom: 12px;
+    }
+
+    section p {
+      font-size: 1rem;
+      line-height: 1.6;
+      margin-bottom: 16px;
+      color: #444444;
+    }
+
+    /* Image Placeholders */
+    .section-image {
+      width: 100%;
+      max-width: 800px;
+      margin: 20px auto;
+      display: block;
+      border: 1px solid #cccccc;
+      border-radius: 4px;
+    }
+
+    /* Contact Info */
+    .contact-info p {
+      font-size: 1rem;
+      margin-bottom: 8px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <!-- HEADER -->
+    <header>
+      <img src="Mana-Logo.jpeg" alt="Manalife Logo" class="logo" />
+      <h1>Manalife AI</h1>
+      <p>Transforming Maternity Healthcare</p>
+    </header>
+
+    <!-- NAVIGATION -->
+    <nav>
+      <div class="nav-container">
+        <a href="#about">About Us</a>
+        <a href="#solutions">Solutions</a>
+        <a href="#investors">Investors</a>
+        <a href="#careers">Careers</a>
+        <a href="#contact">Contact Us</a>
+      </div>
+    </nav>
+
+    <!-- ABOUT SECTION -->
+    <section id="about">
+      <h2>About Us</h2>
+
+      <!-- Mission -->
+      <h3>Mission</h3>
+      <p>
+        At Manalife AI, our mission is to transform maternity and women’s
+        healthcare through intelligent and accessible technology. We empower
+        gynaecologists, healthcare providers, and expectant mothers with
+        AI-driven insights that support early detection, personalized care,
+        and improved clinical outcomes. A key focus of our work is enabling
+        early screening and intervention for cervical cancer, addressing a
+        critical gap in preventive care—especially in underserved regions.
+      </p>
+
+      <!-- Team -->
+      <h3>Team</h3>
+      <p>
+        The Manalife founding team brings over 100+ years of combined
+        experience across technology, healthcare operations, gynaecology, and
+        oncology. This diverse expertise allows us to build solutions that
+        are both clinically grounded and technologically advanced. We are
+        supported by a global panel of advisors in medicine, medical
+        technology, and regulatory strategy, ensuring our work remains
+        relevant, evidence-based, and globally compliant.
+      </p>
+
+      <!-- Geographies -->
+      <h3>Geographies</h3>
+      <p>
+        We are currently serving gynaecologists and expectant mothers in
+        <strong>India</strong> and <strong>Malaysia</strong>, two regions with
+        diverse healthcare landscapes and growing demand for digital innovation
+        in maternal care. In India, we focus on bridging gaps in both urban and
+        rural settings, where access to timely diagnostics and personalized
+        care remains a challenge. In Malaysia, we collaborate with clinics and
+        health systems to support national efforts in digital health
+        transformation, including the shift from paper-based maternity records
+        to intelligent, AI-powered platforms. Our goal is to expand thoughtfully,
+        building on local insights while delivering globally scalable solutions.
+      </p>
+         
+    <!--</section>-->
+    <!-- SOLUTIONS SECTION -->
+    <section id="solutions">
+      <h2>Solutions</h2>
+
+      <!-- Manalife Core -->
+      <h3>Manalife Core</h3>
+      <p>
+        Manalife Core is the foundation of our digital maternity care
+        platform, built to streamline and elevate the daily workflows of
+        gynaecologists, clinics, and hospitals. It features a gynaecology-specific
+        Electronic Medical Record (EMR) system inspired from Redbook, along
+        with tools for appointment scheduling, video consultations, and integration
+        with home-based diagnostic devices. The platform also includes a companion
+        app for expectant mothers, enabling them to journal their daily experiences,
+        complete check-ins with their doctors, and access curated educational content.
+        Designed with a strong emphasis on usability and clinical relevance,
+        Manalife Core empowers care providers to deliver more efficient, connected,
+        and personalized maternity care.
+      </p>       
+
+      <!-- Manalife AI -->
+      <h3>Manalife AI</h3>
+      <p>
+        Manalife AI is the intelligence layer of the platform, designed to
+        support clinical decision-making and improve maternal health outcomes
+        through data-driven insights. It leverages machine learning models to
+        analyze patient data, identify potential risks, and generate timely alerts
+        for gynaecologists. Key applications include predictive monitoring during
+        antenatal care, automated triaging, and personalized care pathways.
+        Built with explainability and clinician trust in mind, Manalife AI transforms
+        routine care into proactive, precision-driven healthcare.
+      </p>
+
+      <!-- Clinical Decision Support -->
+      <h3>Clinical Decision Support for Gynaecologists</h3>
+      <p>
+        Manalife AI provides gynaecologists with real-time, context-aware decision
+        support that enhances clinical accuracy and response time. By continuously
+        analyzing patient data—including vitals, symptoms, lab results, and scan
+        reports—the system flags emerging risks such as preeclampsia, gestational
+        diabetes, and fetal growth anomalies. Clinicians receive evidence-backed
+        recommendations that are integrated into their workflow, ensuring timely
+        and informed interventions without added cognitive load.
+      </p>
+
+      <!-- Cervical Cancer Detection -->
+      <h3>Cervical Cancer Detection</h3>
+      <p>
+        A flagship capability of Manalife AI is its AI-powered cervical cancer
+        screening tool, which assists clinicians in early detection of pre-cancerous
+        and cancerous lesions from colposcopy or cytology images. The system leverages
+        advanced image processing and deep learning algorithms to highlight suspicious
+        regions and assign risk levels. Designed to augment clinical judgment, this
+        tool improves diagnostic accuracy and enables timely referrals and treatment,
+        especially in low-resource settings where specialist availability may be limited.
+      </p>
+     
+    <!--</section>--> 
+    <!-- INVESTORS SECTION -->
+    <section id="investors">
+      <h2>Investors</h2>
+      <p>
+        We are actively seeking early-stage funding to accelerate our product roadmap,
+        expand clinical deployments, and scale operations across India and Malaysia.
+        Backed by a seasoned team with deep expertise in healthcare and AI, Manalife AI
+        presents a compelling opportunity at the intersection of women’s health and AI.
+        We invite mission-aligned investors who are passionate about transformative
+        impact in maternal care and early cancer detection to join us on this journey.
+      </p>
+      
+    <!--</section>-->
+    <!-- CAREERS SECTION -->
+    <section id="careers">
+      <h2>Careers</h2>
+      <p>
+        At Manalife AI, we are building a mission-driven team passionate about redefining
+        maternal and preventive healthcare through innovation. We offer opportunities across
+        a variety of roles:
+      </p>
+
+      <!-- Interns -->
+      <h3>Interns</h3>
+      <p>
+        Work alongside our core team on impactful projects in AI-driven maternal healthcare.
+        We offer 6–12 month internships for BTech/MTech students and recent graduates with
+        strong foundations in machine learning, deep learning (especially CNNs and transformers),
+        and medical image analysis. Interns will gain exposure to real clinical datasets,
+        model development workflows, and cross-functional collaboration with engineers and clinicians.
+      </p>
+
+      <!-- Permanent Roles -->
+      <h3>Permanent Roles</h3>
+      <p>
+        Manalife AI offers opportunities to contribute to impactful solutions in a fast-growing
+        startup environment. See the JD for a current opening:
+      </p>
+      <ul>
+        <li>
+          <strong>AI Engineer – Medical Image Analysis (Cytology &amp; Colposcopy)</strong><br />
+          <em>Location:</em> Remote / Hybrid – Trivandrum, India<br />
+          <em>Type:</em> Full-time / Contract / Research Collaborator<br />
+          <em>Experience:</em> 2+ years (or academic projects with strong portfolios)
+          <br /><br />
+          <strong>Key Responsibilities:</strong><br />
+          • Develop and optimize deep learning models (e.g., CNNs, transformers) for medical image segmentation,
+          classification, and detection.<br />
+          • Preprocess and augment image datasets (e.g., colposcopy, Pap smear WSI).<br />
+          • Collaborate with clinical experts to annotate data and validate model outputs.<br />
+          • Perform model evaluation (e.g., ROC, AUC, sensitivity/specificity) and explainability.<br />
+          • Implement model inference pipelines for integration into digital health applications.<br />
+          • Contribute to research papers, white papers, and publications if applicable.
+          <br /><br />
+          <strong>Required Skills:</strong><br />
+          • Strong proficiency in Python and deep learning frameworks (PyTorch or TensorFlow).<br />
+          • Experience with medical imaging libraries (OpenCV, MONAI, SimpleITK, etc.).<br />
+          • Familiarity with cytology or histopathology image analysis and associated challenges
+          (e.g., stain variability, class imbalance).<br />
+          • Good grasp of AI/ML concepts like transfer learning, fine-tuning, and evaluation metrics.<br />
+          • Ability to work with noisy, imbalanced datasets and optimize for real-world performance.
+          <br /><br />
+          <strong>Nice-to-Have:</strong><br />
+          • Exposure to multimodal AI (e.g., combining images with clinical text).<br />
+          • Familiarity with colposcopy-specific datasets (e.g., SIPaKMeD, SEVIA, MobileODT).<br />
+          • Experience with cloud deployment (AWS, Azure, or GCP).<br />
+          • Prior work in healthcare startups or AI research labs.
+        </li>
+      </ul>
+
+      <!-- Part-time Researchers -->
+      <h3>Part-time Researchers</h3>
+      <p>
+        Join us in shaping the future of AI-driven women’s health as a part-time contributor.
+        We welcome researchers, clinicians, and data scientists who wish to collaborate on areas
+        such as cervical cancer detection, clinical decision support models, image annotation pipelines,
+        and AI fairness in medical diagnostics. Whether you're from academia or industry, this is
+        a chance to apply your expertise to real-world challenges with social impact. If you're
+        driven by purpose and excited to work at the intersection of healthcare and technology,
+        we’d love to hear from you.
+      </p>
+      
+    <!--</section>-->
+    <!-- CONTACT SECTION -->
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <div class="contact-info">
+        <p>📧 Email: <a href="mailto:hello@manalifeai.com">hello@manalifeai.com</a></p>
+        <p>📍 Based in: Trivandrum, India | Operating in: India &amp; Malaysia</p>
+        <p>We welcome inquiries from clinicians, collaborators, investors, and prospective team members.</p>
+      </div>
+
+      
+   <!-- </section>-->
+  </div>
+</body>
+</html>
+
+
